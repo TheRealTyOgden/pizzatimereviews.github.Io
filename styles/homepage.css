@@ -1,0 +1,75 @@
+/* Hero section style */
+
+.hero-section {
+    background-image: url(../images/review-small.png);
+    padding: 170px;
+    height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-section > .top-heading h1 {
+    color: white;
+    height: 10px;
+    padding: 30px 5px 30px 5px;
+    text-align: center;
+}
+
+/* features section styles */
+
+.features-section {
+    height: 400px;
+    background-image: url(../images/matching-background.jpg);
+    background-color: #EFD463;
+    border-top: 10px solid black;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.features-section > .columns-wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+.features-section > .columns-wrapper > .column {
+    padding: 20px;
+    margin: 420;
+    margin: 42px;
+    text-align: center;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(1) {
+    font-size: 3em;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(2) {
+    font-size: 1.5em;
+    font-weight: 900;
+    height: 50px;
+    transition: 1s;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(3) {
+    letter-spacing: 2px;
+}
+
+
+/*  
+.footer-wrapper {
+    height: 250px;
+    background-color: #ff4f4b;
+    padding: 40px;
+    color: white;
+    text-align: center;
+} */
+
+
+

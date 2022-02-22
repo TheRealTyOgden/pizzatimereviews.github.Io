@@ -1,0 +1,49 @@
+/* Common Styles */
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+button {
+    background-color: #ff4f4b;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: inset;
+    
+} 
+
+a {
+    color:white
+}
+a:link {
+    text-decoration: none;
+}
+
+button:hover {
+    background-color:black;
+    color: #ff4f4b;
+} 
+
+
+
+/*  About Us begins */
+
+.background {
+    background-color: #FFFDD0;
+    color: black;
+}
+
+
+/* Helpers */
+
+.spacer50 {
+    height: 50px;
+    width: 50%;
+}
